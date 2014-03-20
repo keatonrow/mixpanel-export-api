@@ -1,0 +1,25 @@
+{
+  "name": "mixpanel-export-api",
+  "version": "0.0.0",
+  "description": "Node wrapper for Mixpanel's export api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keatonrow/mixpanel-export-api.git"
+  },
+  "keywords": [
+    "mixpanel",
+    "api",
+    "wrapper",
+    "export"
+  ],
+  "author": "Keaton Row Inc. <no32@keatonrow.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keatonrow/mixpanel-export-api/issues"
+  },
+  "homepage": "https://github.com/keatonrow/mixpanel-export-api"
+}

@@ -149,8 +149,8 @@ MixpanelExportAPI.prototype.request = function(){
 */
 MixpanelExportAPI.prototype.sign = function(parameters){
 
-  function joinPairs(pair){ return pair.join('='); }
-  
+  function joinPairs(pair){ return pair.join('=');}
+
   var concatenated = _.pairs(parameters)
                       .map(joinPairs)
                       .sort()
@@ -195,3 +195,5 @@ _.forEach(spec, function(val, endPoint){
     this.request.apply(this, args);
   };
 });
+
+module.exports = MixpanelExportAPI;

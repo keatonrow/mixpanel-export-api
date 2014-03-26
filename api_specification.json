@@ -1,0 +1,16 @@
+{
+ "events"                  : ["event", "type", "unit", "interval"],
+ "events/top"              : ["type"],
+ "events/names"            : ["type"],
+ "events/properties"       : ["event", "name", "type", "unit", "interval"],
+ "events/properties/top"   : ["event"],
+ "events/properties/value" : ["event", "name"],
+ "funnels"                 : ["funnel_id"],
+ "funnels/list"            : [],
+ "segmentation"            : ["event", "from_date", "to_date"],
+ "segmentation/numeric"    : ["event", "from_date", "to_date"],
+ "segmentation/sum"        : ["event", "from_date", "to_date", "on"],
+ "segmentation/average"    : ["event", "from_data", "to_date", "on"],
+ "retention"               : ["from_date", "to_date"],
+ "engage"                  : [] 
+}

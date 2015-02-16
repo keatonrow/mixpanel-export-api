@@ -1,5 +1,5 @@
 {
-  "name": "mixpanel-export-api",
+  "name": "@kr/mixpanel-export-api",
   "version": "0.0.1",
   "description": "Node wrapper for Mixpanel's export api.",
   "main": "index.js",
